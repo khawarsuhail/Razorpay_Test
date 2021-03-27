@@ -30,7 +30,7 @@ class _HomeState extends State<Home> {
 
   void openCheckout() {
     var options = {
-      "key": "rzp_test_h26P0FTpymWV3O",
+      "key": "",
       "amount": num.parse(textEditingController.text) * 100,
       "name": "Test App",
       "description": "Payment for the some random product",
